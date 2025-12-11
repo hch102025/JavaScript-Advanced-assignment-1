@@ -1,0 +1,14 @@
+* {
+	margin: 0px;
+}
+
+#player {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background-color: aqua;
+}
+
+body {
+	background-color: black;
+}
