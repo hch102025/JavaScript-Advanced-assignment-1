@@ -1,7 +1,8 @@
 //-------------------- VARIABLES --------------------------------
 
 // Player
-const player = document.querySelector("#player");
+const player1 = document.querySelector("#player1");
+const player2 = document.querySelector("#player2");
 
 // X and Y positions
 let yPos = 0;
@@ -48,8 +49,8 @@ document.addEventListener("keydown", (event) => {
 	}
 
 	// Updates the player position using css styling
-	player.style.top = `${yPos}px`;
-	player.style.left = `${xPos}px`;
+	player1.style.top = `${yPos}px`;
+	player1.style.left = `${xPos}px`;
 });
 
 // Eventlistener that checks for the users mouse coordinates and moves the player according to where they click
@@ -60,6 +61,6 @@ document.addEventListener("click", (event) => {
 
 	// Updates the player position using css styling
 	// Subtracts 50 px (Half of player size) to center the player where the mouse is clicked
-	player.style.top = `${yMousePos - 50}px`;
-	player.style.left = `${xMousePos - 50}px`;
+	player2.style.top = `${yMousePos - 50}px`;
+	player2.style.left = `${xMousePos - 50}px`;
 });

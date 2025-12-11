@@ -2,11 +2,19 @@
 	margin: 0px;
 }
 
-#player {
+#player1 {
 	width: 100px;
 	height: 100px;
 	position: absolute;
 	background-color: aqua;
+	margin-top: 200px;
+}
+
+#player2 {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	background-color: rgb(60, 143, 49);
 }
 
 body {
